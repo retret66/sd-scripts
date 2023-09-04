@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 ### Make sure you update the paths to your directories
 
-
-=======
->>>>>>> 47afe02a32b263974ddbb68f89b274136f5e79bd
 [general]
 enable_bucket = true
 
