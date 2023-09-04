@@ -1,0 +1,18 @@
+[general]
+enable_bucket = true
+
+[[datasets]]
+resolution = 512
+batch_size = 2 # you might want to have a bigger batch_size to make the training faster.
+#caption_extension = '.txt'
+
+  [[datasets.subsets]]
+  image_dir = '/Users/reyhernandez/Desktop/train_data_dir/4ida'
+  class_tokens = 'woman'
+  num_repeats = 20
+  caption_extension = '.txt'
+
+  [[datasets.subsets]]
+  is_reg = true
+  class_tokens = 'woman'
+  image_dir = '/Users/reyhernandez/Desktop/train_data_dir/reg'
