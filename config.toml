@@ -1,3 +1,5 @@
+###Change the paths to your images/files###
+
 [general]
 enable_bucket = true
 
